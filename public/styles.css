@@ -1,0 +1,21 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.card-style {
+    background-color: #ffffff;
+    min-height: 300px;
+    min-width: 200px;
+    max-height: 300px;
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 5px red;
+}
+
+.card-text {
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+}
