@@ -1,6 +1,15 @@
 body {
     background-color: #000000;
     color: #ffffff;
+    text-align: center;
+}
+
+.title-text {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 8rem;
+    margin: 2rem;
 }
 
 .card-style {
@@ -11,11 +20,60 @@ body {
     max-width: 200px;
     border-radius: 20px;
     box-shadow: 15px 15px 5px red;
+    margin: 20px;
+    display: inline-block;
 }
 
 .card-text {
     color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    font-size: 7rem;
+    font-size: 6rem;
+    padding: 0.5rem;
+    margin: 0;
+    text-align: left;
+}
+
+.card-text-red {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+    padding: 0.5rem;
+    margin: 0;
+    text-align: left;
+}
+
+.card-suit {
+    max-width: 70%;
+}
+
+.suit-container {
+    text-align: center;
+}
+
+.card-row-style {
+    flex-direction: row;
+}
+
+.btn-style {
+    min-height: 80px;
+    min-width: 100px;
+    max-height: 80px;
+    max-width: 100px;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin: 50px;
+}
+
+.btn-text {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 80px;
 }
