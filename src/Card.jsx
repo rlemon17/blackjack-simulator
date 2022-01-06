@@ -25,8 +25,8 @@ const Card = (props) => {
     let rank = rankArray[props.rank];
 
     return (
-        <div className="card-style">
-            <p className={(props.suit > 1) ? "card-text-red" : "card-text"}>{rank}</p>
+        <div className={props.dealer ? "card-style dealer-card" : "card-style"}>
+            <p className={(props.suit > 1) ? "card-text red" : "card-text"}>{rank}</p>
             <div className="suit-container">
                 <img className="card-suit" src={suit} alt="suit"></img>
             </div>

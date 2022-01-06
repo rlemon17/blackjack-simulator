@@ -4,7 +4,7 @@ import CardRow from './CardRow.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <p className="title-text">Blackjack</p>
       <CardRow />
     </div>
